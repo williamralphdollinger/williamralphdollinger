@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fb7a06edc32602109f5739ec0501317f" label="reading" max_length="40" name="x_244776_blood_p_1_reading" type="collection">
+        <element label="timestamp" max_length="40" name="timestamp" type="glide_date_time"/>
+        <element label="Diastolic" max_length="40" name="diastolic" type="integer"/>
+        <element label="Glucose" max_length="40" name="glucose" type="integer"/>
+        <element label="Systolic" max_length="40" name="systolic" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>
